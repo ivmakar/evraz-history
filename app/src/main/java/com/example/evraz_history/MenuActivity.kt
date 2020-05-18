@@ -12,7 +12,7 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         menu1.setOnClickListener {
-            startActivity(Intent(this, HistoryActivity::class.java))
+            startActivity(Intent(this, DescriptionActivity::class.java))
         }
 
         menu2.setOnClickListener {
@@ -20,7 +20,7 @@ class MenuActivity : AppCompatActivity() {
         }
 
         menu3.setOnClickListener {
-            startActivity(Intent(this, HistoryActivity::class.java))
+            startActivity(Intent(this, NatureActivity::class.java))
         }
     }
 }
